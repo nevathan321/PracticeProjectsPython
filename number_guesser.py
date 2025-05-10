@@ -37,12 +37,10 @@ while True:
     if user_guess == random_number:
         print("You got it Right")
         break
+    elif user_guess > random_number: 
+        print("you were above the random number")
     else:
-        if user_guess > random_number: 
-            print("you were above the random number")
-        
-        else:
-            print("You were below the number")
+        print("You were below the number")
 
 print("You got it in", guesses, "guesses")
     # you can also do print("You got it in " + str(guesses) + " guesses")
