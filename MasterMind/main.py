@@ -1,3 +1,5 @@
+#MastermindGame
+
 import random 
 
 COLORS = ["R", "G", "B", "Y", "W", "O"]
@@ -34,12 +36,29 @@ def guess_code():
                 break 
 
             
-         else:
+        else:
             break
              
 
 
     return guess 
     
+
+
+def check_code(guess, real_code):
+    color_counts = {}
+    correct_pos = 0 
+    incorrect_pos = 0 
+
+    for color in real_code:
+        for color not in color_counts:
+            color.counts[color] = 0 
+        color_counts[color] += 1 
+    
+    for guess
+
+
+
+
  
 
