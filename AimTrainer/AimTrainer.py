@@ -3,7 +3,7 @@ import random
 import time 
 import pygame 
 
-pygame.init()
+pygame.init() #intalize pygame
 
 WIDTH, HEIGHT = 800, 600
 
