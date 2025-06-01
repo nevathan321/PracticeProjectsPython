@@ -1,3 +1,7 @@
+#clean code 
+#Good coding practice!
+
+
 import pygame 
 import random 
 import math 
